@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutterdialogflow/app/pages/home_controller.dart';
 import 'package:flutterdialogflow/app/pages/home_page.dart';
 import 'package:flutterdialogflow/app/widgets/footer/footer_controller.dart';
+import 'package:flutterdialogflow/app/widgets/message_list/message_list_controller.dart';
 import 'package:provider/provider.dart';
 
 class App extends StatelessWidget {
@@ -20,6 +21,7 @@ class App extends StatelessWidget {
     return MultiProvider(
       providers: [
         Provider<FooterController>(create: (_) => FooterController()),
+        Provider<MessageListController>(create: (_) => MessageListController()),
         Provider<HomeController>(create: (_) => HomeController()),
       ],
       child: MaterialApp(

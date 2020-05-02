@@ -70,7 +70,7 @@ class _FooterWidgetState extends State<FooterWidget> {
                           builder: (_) {
                             if (_footerController.hasSpeech) {
                               return Lottie.asset(
-                                "assets/lottiefiles/voice_recognition.json",
+                                "assets/lottiefiles/voice_recorder.json",
                                 height: 48,
                               );
                             }

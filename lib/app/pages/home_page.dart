@@ -15,11 +15,18 @@ class _HomePageState extends State<HomePage> {
     final _homeController = Provider.of<HomeController>(context);
 
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          MessageListWidget(),
-          FooterWidget(),
-        ],
+      body: SafeArea(
+        child: Column(
+          children: <Widget>[
+            Expanded(
+              child: Container(
+                color: Color(0xFFFCFDFC),
+                child: MessageListWidget(),
+              ),
+            ),
+            FooterWidget(),
+          ],
+        ),
       ),
     );
   }

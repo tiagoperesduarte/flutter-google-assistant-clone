@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdialogflow/app/models/bot_message_widget.dart';
-import 'package:flutterdialogflow/app/models/message.dart';
-import 'package:flutterdialogflow/app/models/message_from.dart';
-import 'package:flutterdialogflow/app/widgets/speech_bubble/bot_speech_bubble_widget.dart';
+import 'package:fluttergoogleassistantclone/app/models/bot_message_widget.dart';
+import 'package:fluttergoogleassistantclone/app/models/message.dart';
+import 'package:fluttergoogleassistantclone/app/models/message_from.dart';
+import 'package:fluttergoogleassistantclone/app/widgets/speech_bubble/bot_speech_bubble_widget.dart';
 
 class BotMessage extends Message {
   List<String> texts;

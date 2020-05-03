@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
-import 'package:flutterdialogflow/app/models/bot_message.dart';
+import 'package:fluttergoogleassistantclone/app/models/bot_message.dart';
 
 class MessageRepository {
   final Dio _dio;

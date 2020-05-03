@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutterdialogflow/app/pages/home_controller.dart';
-import 'package:flutterdialogflow/app/pages/home_page.dart';
-import 'package:flutterdialogflow/app/repositories/message_repository.dart';
-import 'package:flutterdialogflow/app/widgets/footer/footer_controller.dart';
+import 'package:fluttergoogleassistantclone/app/pages/home/home_controller.dart';
+import 'package:fluttergoogleassistantclone/app/pages/home/home_page.dart';
+import 'package:fluttergoogleassistantclone/app/repositories/message_repository.dart';
+import 'package:fluttergoogleassistantclone/app/widgets/footer/footer_controller.dart';
 import 'package:provider/provider.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 

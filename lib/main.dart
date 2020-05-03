@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutterdialogflow/app/app.dart';
+import 'package:fluttergoogleassistantclone/app/app.dart';
 
 void main() => runApp(App());

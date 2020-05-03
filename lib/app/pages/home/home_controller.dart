@@ -1,7 +1,7 @@
-import 'package:flutterdialogflow/app/models/bot_message.dart';
-import 'package:flutterdialogflow/app/models/message.dart';
-import 'package:flutterdialogflow/app/models/user_message.dart';
-import 'package:flutterdialogflow/app/repositories/message_repository.dart';
+import 'package:fluttergoogleassistantclone/app/models/bot_message.dart';
+import 'package:fluttergoogleassistantclone/app/models/message.dart';
+import 'package:fluttergoogleassistantclone/app/models/user_message.dart';
+import 'package:fluttergoogleassistantclone/app/repositories/message_repository.dart';
 import 'package:mobx/mobx.dart';
 
 part 'home_controller.g.dart';

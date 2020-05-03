@@ -1,4 +1,4 @@
-package br.com.tiagosilva.flutterdialogflow
+package br.com.tiagosilva.fluttergoogleassistantclone
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

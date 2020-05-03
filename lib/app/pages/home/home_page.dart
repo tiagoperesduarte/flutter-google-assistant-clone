@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutterdialogflow/app/pages/home_controller.dart';
-import 'package:flutterdialogflow/app/widgets/footer/footer_widget.dart';
+import 'package:fluttergoogleassistantclone/app/pages/home/home_controller.dart';
+import 'package:fluttergoogleassistantclone/app/widgets/footer/footer_widget.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {

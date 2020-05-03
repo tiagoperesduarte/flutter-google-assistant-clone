@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutterdialogflow/app/utils/string_utils.dart';
-import 'package:flutterdialogflow/app/widgets/footer/footer_controller.dart';
+import 'package:fluttergoogleassistantclone/app/utils/string_utils.dart';
+import 'package:fluttergoogleassistantclone/app/widgets/footer/footer_controller.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 

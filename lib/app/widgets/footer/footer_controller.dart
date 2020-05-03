@@ -1,4 +1,4 @@
-import 'package:flutterdialogflow/app/pages/home_controller.dart';
+import 'package:fluttergoogleassistantclone/app/pages/home/home_controller.dart';
 import 'package:mobx/mobx.dart';
 import 'package:speech_to_text/speech_recognition_error.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';

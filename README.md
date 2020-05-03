@@ -2,7 +2,7 @@
 Building a Google Assistant clone on Flutter.
 Show some star to repository to support the project
 
-## 📷 Screenshots
+# Screenshots
 
 | Original| Flutter|
 | --------|--------|

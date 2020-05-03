@@ -1,4 +1,3 @@
-import 'package:fluttergoogleassistantclone/app/models/bot_message.dart';
 import 'package:fluttergoogleassistantclone/app/models/message.dart';
 import 'package:fluttergoogleassistantclone/app/models/user_message.dart';
 import 'package:fluttergoogleassistantclone/app/repositories/message_repository.dart';
@@ -14,9 +13,7 @@ abstract class _HomeControllerBase with Store {
   _HomeControllerBase(this._messageRepository);
 
   @observable
-  ObservableList<Message> messages = ObservableList<Message>.of([
-    BotMessage.fromText("Lorem ipsum dolor sit amet"),
-  ]);
+  ObservableList<Message> messages = ObservableList<Message>();
 
   @action
   Future<void> getMessage(String text) async {

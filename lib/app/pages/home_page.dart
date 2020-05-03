@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutterdialogflow/app/pages/home_controller.dart';
 import 'package:flutterdialogflow/app/widgets/footer/footer_widget.dart';
-import 'package:flutterdialogflow/app/widgets/message_list/message_list_widget.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -21,7 +21,14 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: Container(
                 color: Color(0xFFFCFDFC),
-                child: MessageListWidget(),
+                child: Observer(
+                  builder: (BuildContext context) => ListView.separated(
+                    padding: EdgeInsets.all(16),
+                    itemCount: _homeController.messages.length,
+                    itemBuilder: (BuildContext context, int index) => _homeController.messages[index].toWidget(),
+                    separatorBuilder: (BuildContext context, int index) => SizedBox(height: 8),
+                  ),
+                ),
               ),
             ),
             FooterWidget(),

@@ -1,0 +1,3 @@
+enum BotMessageWidgetType {
+  chart,
+}

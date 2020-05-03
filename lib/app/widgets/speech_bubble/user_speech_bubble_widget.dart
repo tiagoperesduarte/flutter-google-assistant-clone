@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class MessageBubbleBotWidget extends StatelessWidget {
+class UserSpeechBubbleWidget extends StatelessWidget {
   final String _text;
 
-  MessageBubbleBotWidget(this._text);
+  UserSpeechBubbleWidget(this._text);
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +15,13 @@ class MessageBubbleBotWidget extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Expanded(
+            flex: 1,
+            child: Container(),
+          ),
+          Expanded(
             flex: 10,
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: <Widget>[
                 Container(
                   padding: EdgeInsets.only(
@@ -27,10 +31,7 @@ class MessageBubbleBotWidget extends StatelessWidget {
                     bottom: 12,
                   ),
                   decoration: BoxDecoration(
-                    border: Border.all(
-                      width: 1,
-                      color: Color(0xFFF0F1F3),
-                    ),
+                    color: Color(0xFFF2F3F5),
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20),
                       bottomLeft: Radius.circular(20),
@@ -39,7 +40,7 @@ class MessageBubbleBotWidget extends StatelessWidget {
                   ),
                   child: Text(
                     _text,
-                    textAlign: TextAlign.left,
+                    textAlign: TextAlign.right,
                     style: TextStyle(
                       color: Color(0xFF5F6267),
                       fontSize: 15,
@@ -48,10 +49,6 @@ class MessageBubbleBotWidget extends StatelessWidget {
                 ),
               ],
             ),
-          ),
-          Expanded(
-            flex: 1,
-            child: Container(),
           ),
         ],
       ),

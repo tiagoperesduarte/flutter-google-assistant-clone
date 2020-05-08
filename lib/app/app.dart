@@ -1,12 +1,8 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:fluttergoogleassistantclone/app/pages/home/home_controller.dart';
+import 'package:fluttergoogleassistantclone/app/constants/providers.dart';
 import 'package:fluttergoogleassistantclone/app/pages/home/home_page.dart';
-import 'package:fluttergoogleassistantclone/app/repositories/message_repository.dart';
-import 'package:fluttergoogleassistantclone/app/widgets/footer/footer_controller.dart';
 import 'package:provider/provider.dart';
-import 'package:speech_to_text/speech_to_text.dart';
 
 class App extends StatelessWidget {
   @override
@@ -21,18 +17,7 @@ class App extends StatelessWidget {
     );
 
     return MultiProvider(
-      providers: [
-        // Others
-        Provider<Dio>(create: (_) => Dio()),
-        Provider<SpeechToText>(create: (_) => SpeechToText()),
-
-        // Repositories
-        ProxyProvider<Dio, MessageRepository>(update: (_, dio, __) => MessageRepository(dio)),
-
-        // Controllers
-        ProxyProvider<MessageRepository, HomeController>(update: (_, messageRepository, __) => HomeController(messageRepository)),
-        ProxyProvider2<SpeechToText, HomeController, FooterController>(update: (_, speechToText, homeController, __) => FooterController(speechToText, homeController)),
-      ],
+      providers: providers,
       child: MaterialApp(
         title: 'Flutter Demo',
         home: HomePage(),

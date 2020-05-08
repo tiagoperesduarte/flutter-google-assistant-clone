@@ -26,11 +26,11 @@ mixin _$HomeController on _HomeControllerBase, Store {
     }, _$messagesAtom, name: '${_$messagesAtom.name}_set');
   }
 
-  final _$getMessageAsyncAction = AsyncAction('getMessage');
+  final _$processAsyncAction = AsyncAction('process');
 
   @override
-  Future<void> getMessage(String text) {
-    return _$getMessageAsyncAction.run(() => super.getMessage(text));
+  Future<void> process(String text) {
+    return _$processAsyncAction.run(() => super.process(text));
   }
 
   @override

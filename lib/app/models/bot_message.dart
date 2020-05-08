@@ -7,24 +7,26 @@ import 'package:fluttergoogleassistantclone/app/widgets/speech_bubble/bot_speech
 class BotMessage extends Message {
   List<String> texts;
   List<BotMessageWidget> widgets;
+  List<String> suggestionChips;
 
-  BotMessage(List<String> texts, List<BotMessageWidget> widgets) {
+  BotMessage(List<String> texts, List<BotMessageWidget> widgets, List<String> suggestionChips) {
     this.from = MessageFrom.bot;
     this.texts = texts;
     this.widgets = widgets;
+    this.suggestionChips = suggestionChips;
   }
 
   factory BotMessage.fromText(String text) {
-    List<String> texts = List<String>();
-    texts.add(text);
+    List<String> texts = List<String>.of([text]);
 
-    return BotMessage(texts, List<BotMessageWidget>());
+    return BotMessage(texts, List<BotMessageWidget>(), List<String>());
   }
 
   factory BotMessage.fromJson(Map<String, dynamic> json) {
     List<String> texts = json['texts'].cast<String>();
+    List<String> suggestionChips = json['suggestionChips'].cast<String>();
 
-    return BotMessage(texts, List<BotMessageWidget>());
+    return BotMessage(texts, List<BotMessageWidget>(), suggestionChips);
   }
 
   @override

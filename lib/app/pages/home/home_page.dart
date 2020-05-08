@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:fluttergoogleassistantclone/app/pages/home/home_controller.dart';
+import 'package:fluttergoogleassistantclone/app/utils/string_utils.dart';
 import 'package:fluttergoogleassistantclone/app/widgets/footer/footer_widget.dart';
 import 'package:provider/provider.dart';
 
@@ -25,13 +26,26 @@ class _HomePageState extends State<HomePage> {
                   builder: (BuildContext context) => ListView.separated(
                     padding: EdgeInsets.all(16),
                     itemCount: _homeController.messages.length,
-                    itemBuilder: (BuildContext context, int index) => _homeController.messages[index].toWidget(),
-                    separatorBuilder: (BuildContext context, int index) => SizedBox(height: 8),
+                    itemBuilder: (BuildContext context, int index) {
+                      return _homeController.messages[index].toWidget();
+                    },
+                    separatorBuilder: (BuildContext context, int index) {
+                      return SizedBox(height: 8);
+                    },
                   ),
                 ),
               ),
             ),
-            FooterWidget(),
+            FooterWidget(
+              controller: _homeController.footerController,
+              onSubmitted: (String value) {
+                if (StringUtils.isEmpty(value)) {
+                  return;
+                }
+
+                _homeController.process(value);
+              },
+            ),
           ],
         ),
       ),

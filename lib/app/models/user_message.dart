@@ -11,10 +11,6 @@ class UserMessage extends Message {
     this.text = text;
   }
 
-  factory UserMessage.fromText(String text) {
-    return UserMessage(text);
-  }
-
   @override
   Widget toWidget() {
     return UserSpeechBubbleWidget(text);

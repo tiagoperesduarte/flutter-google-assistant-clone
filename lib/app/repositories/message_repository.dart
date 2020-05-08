@@ -9,10 +9,10 @@ class MessageRepository {
 
   MessageRepository(this._dio);
 
-  Future<BotMessage> getMessage() async {
+  Future<BotMessage> getBotMessage(String text) async {
     await Future.delayed(Duration(seconds: 2));
 
-    String contents = await rootBundle.loadString("assets/data/message.json");
+    String contents = await rootBundle.loadString("assets/data/bot_message.json");
     return BotMessage.fromJson(json.decode(contents));
   }
 }

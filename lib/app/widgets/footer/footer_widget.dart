@@ -29,6 +29,7 @@ class FooterWidget extends StatelessWidget {
             height: 40,
             margin: EdgeInsets.only(
               top: 8,
+              bottom: 8,
             ),
             child: ListView.separated(
               padding: EdgeInsets.only(
@@ -82,9 +83,9 @@ class FooterWidget extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: Colors.black,
-            blurRadius: 2,
-            offset: Offset(0, 2),
+            color: Colors.black26,
+            blurRadius: 3,
+            offset: Offset(0, 1),
           )
         ],
       ),
@@ -93,7 +94,7 @@ class FooterWidget extends StatelessWidget {
           _buildSuggestionChips(),
           _buildRecognizedWords(),
           Container(
-            margin: EdgeInsets.all(15),
+            margin: EdgeInsets.all(12),
             child: Row(
               children: <Widget>[
                 Container(
@@ -146,7 +147,7 @@ class FooterWidget extends StatelessWidget {
                                   return Icon(
                                     Icons.mic,
                                     size: 32,
-                                    color: Colors.blue,
+                                    color: Theme.of(context).primaryColor,
                                   );
                                 },
                               ),

@@ -1,0 +1,4 @@
+enum ChartStacking {
+  normal,
+  percentage,
+}

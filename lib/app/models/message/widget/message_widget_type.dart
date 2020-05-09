@@ -1,0 +1,4 @@
+enum MessageWidgetType {
+  card,
+  chart,
+}

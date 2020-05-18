@@ -1,0 +1,518 @@
+{
+  "content": [
+    {
+      "from": "BOT",
+      "texts": [
+        "Lorem ipsum dolor",
+        "Lorem ipsum dolor sit amet"
+      ],
+      "widgets": [],
+      "suggestionChips": []
+    },
+    {
+      "from": "USER",
+      "text": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "from": "BOT",
+      "texts": [
+        "Lorem ipsum dolor sit amet"
+      ],
+      "widgets": [
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                },
+                {
+                  "tooltip": "106.4 mm",
+                  "label": "Mar",
+                  "value": 106.4
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                },
+                {
+                  "tooltip": "106.4 mm",
+                  "label": "Mar",
+                  "value": 106.4
+                },
+                {
+                  "tooltip": "129.2 mm",
+                  "label": "Apr",
+                  "value": 129.2
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                },
+                {
+                  "tooltip": "106.4 mm",
+                  "label": "Mar",
+                  "value": 106.4
+                },
+                {
+                  "tooltip": "129.2 mm",
+                  "label": "Apr",
+                  "value": 129.2
+                },
+                {
+                  "tooltip": "144.0 mm",
+                  "label": "May",
+                  "value": 144.0
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                },
+                {
+                  "tooltip": "106.4 mm",
+                  "label": "Mar",
+                  "value": 106.4
+                },
+                {
+                  "tooltip": "129.2 mm",
+                  "label": "Apr",
+                  "value": 129.2
+                },
+                {
+                  "tooltip": "144.0 mm",
+                  "label": "May",
+                  "value": 144.0
+                },
+                {
+                  "tooltip": "176.0 mm",
+                  "label": "Jun",
+                  "value": 176.0
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        },
+        {
+          "title": "Monthly Average Rainfall",
+          "type": "CHART",
+          "subtitle": "Basic column",
+          "chartType": "COLUMN",
+          "series": [
+            {
+              "name": "Tokyo",
+              "data": [
+                {
+                  "tooltip": "49.9 mm",
+                  "label": "Jan",
+                  "value": 49.9
+                },
+                {
+                  "tooltip": "71.5 mm",
+                  "label": "Feb",
+                  "value": 71.5
+                },
+                {
+                  "tooltip": "106.4 mm",
+                  "label": "Mar",
+                  "value": 106.4
+                },
+                {
+                  "tooltip": "129.2 mm",
+                  "label": "Apr",
+                  "value": 129.2
+                },
+                {
+                  "tooltip": "144.0 mm",
+                  "label": "May",
+                  "value": 144.0
+                },
+                {
+                  "tooltip": "176.0 mm",
+                  "label": "Jun",
+                  "value": 176.0
+                },
+                {
+                  "tooltip": "135.6 mm",
+                  "label": "Jul",
+                  "value": 135.6
+                },
+                {
+                  "tooltip": "148.5 mm",
+                  "label": "Aug",
+                  "value": 148.5
+                },
+                {
+                  "tooltip": "216.4 mm",
+                  "label": "Sep",
+                  "value": 216.4
+                },
+                {
+                  "tooltip": "194.1 mm",
+                  "label": "Oct",
+                  "value": 194.1
+                },
+                {
+                  "tooltip": "95.6 mm",
+                  "label": "Nov",
+                  "value": 95.6
+                },
+                {
+                  "tooltip": "54.4 mm",
+                  "label": "Dec",
+                  "value": 54.4
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            },
+            {
+              "name": "New York",
+              "data": [
+                {
+                  "tooltip": "83.6 mm",
+                  "label": "Jan",
+                  "value": 83.6
+                },
+                {
+                  "tooltip": "78.8 mm",
+                  "label": "Feb",
+                  "value": 78.8
+                },
+                {
+                  "tooltip": "98.5 mm",
+                  "label": "Mar",
+                  "value": 98.5
+                },
+                {
+                  "tooltip": "93.4 mm",
+                  "label": "Apr",
+                  "value": 93.4
+                },
+                {
+                  "tooltip": "106.0 mm",
+                  "label": "May",
+                  "value": 106.0
+                },
+                {
+                  "tooltip": "84.5 mm",
+                  "label": "Jun",
+                  "value": 84.5
+                },
+                {
+                  "tooltip": "105.0 mm",
+                  "label": "Jul",
+                  "value": 105.0
+                },
+                {
+                  "tooltip": "104.3 mm",
+                  "label": "Aug",
+                  "value": 104.3
+                },
+                {
+                  "tooltip": "91.2 mm",
+                  "label": "Sep",
+                  "value": 91.2
+                },
+                {
+                  "tooltip": "83.5 mm",
+                  "label": "Oct",
+                  "value": 83.5
+                },
+                {
+                  "tooltip": "106.6 mm",
+                  "label": "Nov",
+                  "value": 106.6
+                },
+                {
+                  "tooltip": "92.3 mm",
+                  "label": "Dec",
+                  "value": 92.3
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            },
+            {
+              "name": "London",
+              "data": [
+                {
+                  "tooltip": "48.9 mm",
+                  "label": "Jan",
+                  "value": 48.9
+                },
+                {
+                  "tooltip": "38.8 mm",
+                  "label": "Feb",
+                  "value": 38.8
+                },
+                {
+                  "tooltip": "39.3 mm",
+                  "label": "Mar",
+                  "value": 39.3
+                },
+                {
+                  "tooltip": "41.4 mm",
+                  "label": "Apr",
+                  "value": 41.4
+                },
+                {
+                  "tooltip": "47.0 mm",
+                  "label": "May",
+                  "value": 47.0
+                },
+                {
+                  "tooltip": "48.3 mm",
+                  "label": "Jun",
+                  "value": 48.3
+                },
+                {
+                  "tooltip": "59.0 mm",
+                  "label": "Jul",
+                  "value": 59.0
+                },
+                {
+                  "tooltip": "59.6 mm",
+                  "label": "Aug",
+                  "value": 59.6
+                },
+                {
+                  "tooltip": "52.4 mm",
+                  "label": "Sep",
+                  "value": 52.4
+                },
+                {
+                  "tooltip": "65.2 mm",
+                  "label": "Oct",
+                  "value": 65.2
+                },
+                {
+                  "tooltip": "59.3 mm",
+                  "label": "Nov",
+                  "value": 59.3
+                },
+                {
+                  "tooltip": "51.2 mm",
+                  "label": "Dec",
+                  "value": 51.2
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            },
+            {
+              "name": "Berlin",
+              "data": [
+                {
+                  "tooltip": "42.4 mm",
+                  "label": "Jan",
+                  "value": 42.4
+                },
+                {
+                  "tooltip": "33.2 mm",
+                  "label": "Feb",
+                  "value": 33.2
+                },
+                {
+                  "tooltip": "34.5 mm",
+                  "label": "Mar",
+                  "value": 34.5
+                },
+                {
+                  "tooltip": "39.7 mm",
+                  "label": "Apr",
+                  "value": 39.7
+                },
+                {
+                  "tooltip": "52.6 mm",
+                  "label": "May",
+                  "value": 52.6
+                },
+                {
+                  "tooltip": "75.5 mm",
+                  "label": "Jun",
+                  "value": 75.5
+                },
+                {
+                  "tooltip": "57.4 mm",
+                  "label": "Jul",
+                  "value": 57.4
+                },
+                {
+                  "tooltip": "60.4 mm",
+                  "label": "Aug",
+                  "value": 60.4
+                },
+                {
+                  "tooltip": "47.6 mm",
+                  "label": "Sep",
+                  "value": 47.6
+                },
+                {
+                  "tooltip": "39.1 mm",
+                  "label": "Oct",
+                  "value": 39.1
+                },
+                {
+                  "tooltip": "46.8 mm",
+                  "label": "Nov",
+                  "value": 46.8
+                },
+                {
+                  "tooltip": "51.1 mm",
+                  "label": "Dec",
+                  "value": 51.1
+                }
+              ],
+              "seriesType": "COLUMN",
+              "stack": null,
+              "hexColor": null
+            }
+          ],
+          "stacking": null
+        }
+      ],
+      "suggestionChips": [
+        "Lorem ipsum dolor",
+        "Lorem ipsum dolor",
+        "Lorem ipsum dolor"
+      ]
+    }
+  ]
+}

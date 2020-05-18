@@ -1,0 +1,4 @@
+enum MessageChartStacking {
+  normal,
+  percentage,
+}

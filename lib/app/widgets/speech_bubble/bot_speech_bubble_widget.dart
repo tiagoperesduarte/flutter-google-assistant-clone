@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BotSpeechBubbleWidget extends StatelessWidget {
   final List<String> texts;
 
-  BotSpeechBubbleWidget(this.texts);
+  BotSpeechBubbleWidget({this.texts});
 
   @override
   Widget build(BuildContext context) {

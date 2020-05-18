@@ -1,3 +1,0 @@
-enum ChartType {
-  column,
-}

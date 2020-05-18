@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class UserSpeechBubbleWidget extends StatelessWidget {
-  final String _text;
+  final String text;
 
-  UserSpeechBubbleWidget(this._text);
+  UserSpeechBubbleWidget({this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class UserSpeechBubbleWidget extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    _text,
+                    text,
                     textAlign: TextAlign.right,
                     style: TextStyle(
                       color: Color(0xFF5F6267),

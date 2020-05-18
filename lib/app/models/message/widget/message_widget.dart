@@ -1,5 +1,6 @@
-import 'package:fluttergoogleassistantclone/app/models/message/widget/card_widget.dart';
-import 'package:fluttergoogleassistantclone/app/models/message/widget/chart/chart_widget.dart';
+import 'package:flutter/material.dart';
+import 'package:fluttergoogleassistantclone/app/models/message/widget/chart/message_chart.dart';
+import 'package:fluttergoogleassistantclone/app/models/message/widget/message_card.dart';
 import 'package:fluttergoogleassistantclone/app/models/message/widget/message_widget_type.dart';
 import 'package:fluttergoogleassistantclone/app/utils/enum_utils.dart';
 
@@ -14,13 +15,15 @@ abstract class MessageWidget {
 
     switch (type) {
       case MessageWidgetType.card:
-        return CardWidget.fromJson(json);
+        return MessageCard.fromJson(json);
 
       case MessageWidgetType.chart:
-        return ChartWidget.fromJson(json);
+        return MessageChart.fromJson(json);
 
       default:
         return null;
     }
   }
+
+  Widget toWidget();
 }

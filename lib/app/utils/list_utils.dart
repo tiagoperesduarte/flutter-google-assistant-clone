@@ -6,4 +6,8 @@ class ListUtils {
   static bool isNotEmpty(List list) {
     return !isEmpty(list);
   }
+
+  static bool indexExists(List list, int index) {
+    return index >= 0 && index < list.length;
+  }
 }

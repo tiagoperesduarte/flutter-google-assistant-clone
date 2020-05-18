@@ -1,42 +1,14 @@
 {
-  "texts": [
-    "Lorem ipsum dolor sit amet",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-  ],
-  "widgets": [
-    {
-      "title": "Faturamento no período",
-      "type": "CARD",
-      "body": "R$ 680,00",
-      "supportingText": null,
-      "imageUrl": null
-    },
-    {
-      "title": "Evolução do faturamento",
-      "type": "CHART",
-      "subtitle": null,
-      "chartType": "COLUMN",
-      "series": [
-        {
-          "name": "Faturamento",
-          "data": [
-            {
-              "tooltip": "R$ 680,00",
-              "label": "Oct/2019",
-              "value": 680.0
-            }
-          ],
-          "seriesType": "COLUMN",
-          "stack": null,
-          "hexColor": null
-        }
-      ],
-      "stacking": null
-    }
-  ],
-  "suggestionChips": [
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor",
-    "Lorem ipsum dolor"
-  ]
+  "content": {
+    "texts": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    ],
+    "widgets": [],
+    "suggestionChips": [
+      "Lorem ipsum dolor",
+      "Lorem ipsum dolor",
+      "Lorem ipsum dolor"
+    ]
+  }
 }

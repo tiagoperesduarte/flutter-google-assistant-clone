@@ -22,17 +22,28 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: Container(
                 color: Color(0xFFFCFDFC),
-                child: Observer(
-                  builder: (BuildContext context) => ListView.separated(
-                    padding: EdgeInsets.all(16),
-                    itemCount: _homeController.messages.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      return _homeController.messages[index].toWidget();
-                    },
-                    separatorBuilder: (BuildContext context, int index) {
-                      return SizedBox(height: 8);
-                    },
-                  ),
+                child: FutureBuilder(
+                  future: _homeController.loadMessages(),
+                  builder: (BuildContext context, AsyncSnapshot snapshot) {
+                    if (snapshot.connectionState != ConnectionState.done) {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    }
+
+                    return Observer(
+                      builder: (BuildContext context) => ListView.separated(
+                        padding: EdgeInsets.all(16),
+                        itemCount: _homeController.messages.length,
+                        separatorBuilder: (BuildContext context, int index) {
+                          return SizedBox(height: 8);
+                        },
+                        itemBuilder: (BuildContext context, int index) {
+                          return _homeController.messages[index].toWidget();
+                        },
+                      ),
+                    );
+                  },
                 ),
               ),
             ),

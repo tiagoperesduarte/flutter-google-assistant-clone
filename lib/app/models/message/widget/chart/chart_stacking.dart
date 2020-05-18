@@ -1,4 +1,0 @@
-enum ChartStacking {
-  normal,
-  percentage,
-}

@@ -27,6 +27,9 @@ dependencies:
   lottie: ^0.3.3
   speech_to_text: ^2.1.0
   enum_to_string: ^1.0.9
+  mp_chart: ^0.1.9
+  separated_column: ^1.0.1+2
+  random_color: ^1.0.5
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

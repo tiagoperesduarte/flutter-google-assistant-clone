@@ -8,8 +8,14 @@ class UserMessage extends Message {
 
   UserMessage(this.text) : super(MessageFrom.user);
 
+  factory UserMessage.fromJson(Map<String, dynamic> json) {
+    return UserMessage(json['text']);
+  }
+
   @override
   Widget toWidget() {
-    return UserSpeechBubbleWidget(text);
+    return UserSpeechBubbleWidget(
+      text: text,
+    );
   }
 }
